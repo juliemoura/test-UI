@@ -29,7 +29,6 @@ export const Title = styled.label`
 `;
 
 export const Form = styled.form`
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;

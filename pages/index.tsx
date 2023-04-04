@@ -6,10 +6,11 @@ import { ThemeProvider } from 'styled-components'
 export default function Home() {
   return (
     <ThemeProvider theme={TestUI}>
-      <div style={{ height: "100vh", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px" }}>
+      <div style={{ height: "100vh", display: "flex", alignItems: "center", justifyContent: "center", gap: "20px", paddingBottom: "40px" }}>
         <Link title="Tico e Teco" href="/ticoeteco" />
         <Link title="Palíndromo" href="/palindromo" />
       </div>
+      <Link title="Link do Github" href="https://github.com/juliemoura/test-UI" />
     </ThemeProvider>
   )
 }

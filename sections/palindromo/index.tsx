@@ -30,6 +30,7 @@ const Palindromos = () => {
                     <Input type="text" value={inputValue} onChange={handleInputChange} />
                 </Title>
                 <Button type="submit">Verificar</Button>
+                <Link href="/" title="Voltar à pagina inicial" />
             </Form>
         </Container>
     )
